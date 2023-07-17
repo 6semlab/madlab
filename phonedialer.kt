@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
             onPressed("/")
         }
         clear.setOnClickListener {
-            number.text= number.text.toString().substring(0, number.text.length - 1);
+            number.text= "";
         }
         call.setOnClickListener {
             var intent=Intent(Intent.ACTION_DIAL)
