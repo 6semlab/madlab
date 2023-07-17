@@ -1,3 +1,5 @@
+//<uses-permission android:name="android.permission.SET_WALLPAPER" />
+
 import android.app.WallpaperManager
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
